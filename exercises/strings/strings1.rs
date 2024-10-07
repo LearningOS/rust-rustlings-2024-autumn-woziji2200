@@ -12,6 +12,6 @@ fn main() {
     println!("My current favorite color is {}", answer);
 }
 
-fn current_favorite_color() -> String {
-    "blue"
+fn current_favorite_color() ->  String {
+    String::from("blue")
 }
